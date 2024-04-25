@@ -2,9 +2,9 @@ FROM node:20-alpine
 
 RUN apk add --no-cache git
 
-RUN git clone https://github.com/brady55435/Interstellar.nightless.git
+RUN git clone https://github.com/nightlessss/Interstellar
 
-WORKDIR /Interstellar.nightless
+WORKDIR /Interstellar
 
 RUN npm install
 
